@@ -61,18 +61,18 @@ def eval_single_genome(genome, genome_id, index, config, return_dict, write_lock
 
         observation, reward, done, alive, info = env.step(bin_action)  # feedback from environment
         if 'ignore' in info:
-            print('ignore in',genome_id)
-            done = False
-            env = gym.make('meta-SuperMarioBros-Tiles-v0')
-            # env.lock.acquire()
-            env.reset()
-            env.locked_levels = [False] * 32
-            env.change_level(new_level=0)
-            # env.lock.release()
-            time_stale = 0
-            prev_dist = 0
+            # print('ignore in',genome_id)
+            # done = False
+            # env = gym.make('meta-SuperMarioBros-Tiles-v0')
+            # # env.lock.acquire()
+            # env.reset()
+            # env.locked_levels = [False] * 32
+            # env.change_level(new_level=0)
+            # # env.lock.release()
+            # time_stale = 0
+            # prev_dist = 0
 
-            continue
+            break
 
         if info['distance'] <= max_dist:
             time_stale += 1
@@ -91,7 +91,7 @@ def eval_single_genome(genome, genome_id, index, config, return_dict, write_lock
     # env.lock.release()
 
     write_lock.acquire()
-    return_dict[genome_id] = info['distance']
+    return_dict[genome_id] = max_dist
     write_lock.release()
 
     print("evaluating genome", genome_id, "fitness=", return_dict[genome_id])
