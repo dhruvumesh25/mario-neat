@@ -104,7 +104,7 @@ def eval_genomes(genomes, config):
 
     manager = multiprocessing.Manager()
     return_dict = manager.dict()
-    max_parallel_processes = 10
+    max_parallel_processes = 5
 
     lock = multiprocessing.Lock()
     for i in range(0,num_genomes,max_parallel_processes):
