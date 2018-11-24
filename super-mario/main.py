@@ -12,6 +12,7 @@ import time
 import subprocess
 import numpy as np
 from multiprocessing import Process, Value, Array
+import pdb
 
 def killFCEUX():
     bashCommand = "pkill -9 fceux"
@@ -60,12 +61,12 @@ def recenter(observation):
 
     return view
 
-def eval_single_genome(genome, genome_id, index, config, return_dict, write_lock):
+def eval_single_genome(genome, genome_id, index, config, return_dict, write_lock, env):
     # print("inside process", genome_id)
     net = neat.nn.FeedForwardNetwork.create(genome, config)
 
     # lock = multiprocessing.Lock()
-    env = gym.make('meta-SuperMarioBros-Tiles-v0')
+    # env = gym.make('meta-SuperMarioBros-Tiles-v0')
     # env.lock = lock
     # env.no_render = True
     # env.lock.acquire()
@@ -131,7 +132,13 @@ def eval_single_genome(genome, genome_id, index, config, return_dict, write_lock
 
     print("evaluating genome", genome_id, "fitness=", return_dict[genome_id])
 
+max_parallel_processes = 30
+envs = []
+
 def eval_genomes(genomes, config):
+    global envs
+    global max_parallel_processes
+
     counter = 0
     num_genomes = len(genomes)
 
@@ -139,7 +146,6 @@ def eval_genomes(genomes, config):
 
     manager = multiprocessing.Manager()
     return_dict = manager.dict()
-    max_parallel_processes = 1
 
     lock = multiprocessing.Lock()
     for i in range(0,num_genomes,max_parallel_processes):
@@ -148,7 +154,7 @@ def eval_genomes(genomes, config):
                 continue
             else:
                 genome_id, genome = genomes[i+j]
-                p[i+j] = Process(target=eval_single_genome, args=(genome,genome_id,i+j,config,return_dict,lock,))
+                p[i+j] = Process(target=eval_single_genome, args=(genome,genome_id,i+j,config,return_dict,lock,envs[j],))
                 p[i+j].start()
         for j in range(max_parallel_processes):
             if i+j >= num_genomes:
@@ -165,13 +171,16 @@ def eval_genomes(genomes, config):
 
 def run(config_file):
     # Load configuration.
+    global envs
+    global max_parallel_processes
+
     config = neat.Config(neat.DefaultGenome, neat.DefaultReproduction,
                          neat.DefaultSpeciesSet, neat.DefaultStagnation,
                          config_file)
 
     # Create the population, which is the top-level object for a NEAT run.
     p = neat.Population(config)
-    p = neat.Checkpointer.restore_checkpoint('good/neat-checkpoint-31')
+    # p = neat.Checkpointer.restore_checkpoint('good/neat-checkpoint-31')
 
     # p = neat.Checkpointer.restore_checkpoint("neat-checkpoint-23")
 
@@ -181,8 +190,11 @@ def run(config_file):
     p.add_reporter(stats)
     p.add_reporter(neat.Checkpointer(300))
 
+    envs = [gym.make('meta-SuperMarioBros-Tiles-v0') for i in range(0, max_parallel_processes)]
+
     # Run for up to 3000 generations.
-    winner = p.run(eval_genomes, 100)
+    winner = p.run(eval_genomes, 20)
+    pdb.set_trace()
 
     # Display the winning genome.
     print('\nBest genome:\n{!s}'.format(winner))
@@ -194,7 +206,7 @@ def run(config_file):
     #     output = winner_net.activate(xi)
     #     print("input {!r}, expected output {!r}, got {!r}".format(xi, xo, output))
 
-    node_names = {-1:'A', -2: 'B', 0:'A XOR B'}
+    node_names = {}
     visualize.draw_net(config, winner, True, node_names=node_names)
     visualize.plot_stats(stats, ylog=False, view=True)
     visualize.plot_species(stats, view=True)

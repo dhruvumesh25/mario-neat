@@ -1,12 +1,1223 @@
 
- ****** Running generation 31 ****** 
+ ****** Running generation 0 ****** 
 
-evaluating genome 2101 fitness= 1571
-evaluating genome 2102 fitness= 595
-evaluating genome 2103 fitness= 435
-evaluating genome 2104 fitness= 435
-evaluating genome 2105 fitness= 691
-evaluating genome 2106 fitness= 724
-evaluating genome 2107 fitness= 314
-evaluating genome 2108 fitness= 434
-evaluating genome 2109 fitness= 1547
+evaluating genome 4 fitness= 102
+evaluating genome 5 fitness= 40
+evaluating genome 1 fitness= 40
+evaluating genome 14 fitness= 40
+evaluating genome 11 fitness= 40
+evaluating genome 16 fitness= 41
+evaluating genome 21 fitness= 39
+evaluating genome 2 fitness= 65
+evaluating genome 19 fitness= 40
+evaluating genome 12 fitness= 39
+evaluating genome 15 fitness= 54
+evaluating genome 22 fitness= 40
+evaluating genome 6 fitness= 40
+evaluating genome 10 fitness= 46
+evaluating genome 8 fitness= 52
+evaluating genome 9 fitness= 56
+evaluating genome 30 fitness= 40
+evaluating genome 29 fitness= 41
+evaluating genome 28 fitness= 40
+evaluating genome 13 fitness= 64
+evaluating genome 26 fitness= 41
+evaluating genome 24 fitness= 40
+evaluating genome 3 fitness= 305
+evaluating genome 23 fitness= 101
+evaluating genome 27 fitness= 102
+evaluating genome 25 fitness= 300
+evaluating genome 18 fitness= 243
+evaluating genome 20 fitness= 300
+evaluating genome 7 fitness= 397
+evaluating genome 17 fitness= 167
+evaluating genome 44 fitness= 40
+evaluating genome 57 fitness= 40
+evaluating genome 40 fitness= 40
+evaluating genome 46 fitness= 39
+evaluating genome 39 fitness= 40
+evaluating genome 35 fitness= 40
+evaluating genome 49 fitness= 70
+evaluating genome 58 fitness= 40
+evaluating genome 36 fitness= 39
+evaluating genome 43 fitness= 40
+evaluating genome 48 fitness= 73
+evaluating genome 32 fitness= 109
+evaluating genome 51 fitness= 40
+evaluating genome 45 fitness= 41
+evaluating genome 59 fitness= 73
+evaluating genome 38 fitness= 40
+evaluating genome 33 fitness= 115
+evaluating genome 41 fitness= 40
+evaluating genome 37 fitness= 65
+evaluating genome 42 fitness= 119
+evaluating genome 55 fitness= 87
+evaluating genome 50 fitness= 43
+evaluating genome 47 fitness= 310
+evaluating genome 53 fitness= 299
+evaluating genome 34 fitness= 53
+evaluating genome 60 fitness= 298
+evaluating genome 56 fitness= 282
+evaluating genome 54 fitness= 192
+evaluating genome 52 fitness= 434
+evaluating genome 31 fitness= 307
+evaluating genome 81 fitness= 40
+evaluating genome 76 fitness= 46
+evaluating genome 61 fitness= 40
+evaluating genome 72 fitness= 40
+evaluating genome 66 fitness= 40
+evaluating genome 63 fitness= 45
+evaluating genome 64 fitness= 39
+evaluating genome 83 fitness= 40
+evaluating genome 82 fitness= 40
+evaluating genome 78 fitness= 40
+evaluating genome 86 fitness= 40
+evaluating genome 73 fitness= 57
+evaluating genome 90 fitness= 39
+evaluating genome 70 fitness= 40
+evaluating genome 87 fitness= 39
+evaluating genome 85 fitness= 40
+evaluating genome 74 fitness= 109
+evaluating genome 62 fitness= 132
+evaluating genome 80 fitness= 39
+evaluating genome 67 fitness= 63
+evaluating genome 79 fitness= 66
+evaluating genome 89 fitness= 111
+evaluating genome 75 fitness= 46
+evaluating genome 77 fitness= 87
+evaluating genome 65 fitness= 87
+evaluating genome 84 fitness= 297
+evaluating genome 68 fitness= 434
+evaluating genome 88 fitness= 434
+evaluating genome 69 fitness= 596
+evaluating genome 71 fitness= 594
+evaluating genome 93 fitness= 40
+evaluating genome 97 fitness= 40
+evaluating genome 96 fitness= 40
+evaluating genome 94 fitness= 40
+evaluating genome 91 fitness= 40
+evaluating genome 100 fitness= 41
+evaluating genome 95 fitness= 45
+evaluating genome 98 fitness= 64
+evaluating genome 99 fitness= 163
+evaluating genome 92 fitness= 434
+Population's average fitness: 111.10000 stdev: 127.40546
+Best fitness: 596.00000 - size: (12, 2532) - species 23 - id 69
+Average adjusted fitness: 0.122
+Mean genetic distance 2.836, standard deviation 0.323
+Population of 328 members in 82 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    0     4     40.0    0.002     0
+     2    0     4    310.0    0.084     0
+     3    0     3    305.0    0.160     0
+     4    0     4    102.0    0.113     0
+     5    0     4     40.0    0.002     0
+     6    0     4     40.0    0.002     0
+     7    0     2    397.0    0.322     0
+     8    0     4     52.0    0.023     0
+     9    0     4     56.0    0.031     0
+    10    0     4     46.0    0.013     0
+    11    0     4     39.0    0.000     0
+    12    0     4     64.0    0.045     0
+    13    0     4     40.0    0.002     0
+    14    0     4     54.0    0.027     0
+    15    0     4     41.0    0.004     0
+    16    0     4    167.0    0.145     0
+    17    0     4    243.0    0.366     0
+    18    0     4     40.0    0.002     0
+    19    0     4    300.0    0.469     0
+    20    0     4     87.0    0.043     0
+    21    0     4    101.0    0.111     0
+    22    0     4    298.0    0.233     0
+    23    0     4    596.0    0.734     0
+    24    0     4     41.0    0.004     0
+    25    0     4    102.0    0.113     0
+    26    0     4     40.0    0.002     0
+    27    0     4     41.0    0.004     0
+    28    0     4     40.0    0.002     0
+    29    0     4    307.0    0.481     0
+    30    0     4    109.0    0.126     0
+    31    0     4    115.0    0.136     0
+    32    0     4     53.0    0.013     0
+    33    0     4     40.0    0.002     0
+    34    0     4     39.0    0.000     0
+    35    0     4     65.0    0.047     0
+    36    0     4     40.0    0.002     0
+    37    0     4     40.0    0.002     0
+    38    0     4    282.0    0.219     0
+    39    0     4    119.0    0.144     0
+    40    0     4     41.0    0.004     0
+    41    0     4     39.0    0.000     0
+    42    0     4     70.0    0.056     0
+    43    0     4     43.0    0.007     0
+    44    0     4    434.0    0.355     0
+    45    0     4    299.0    0.467     0
+    46    0     6    192.0    0.275     0
+    47    0     4     40.0    0.002     0
+    48    0     4     73.0    0.061     0
+    49    0     4     40.0    0.002     0
+    50    0     4    132.0    0.167     0
+    51    0     4     45.0    0.011     0
+    52    0     4     39.0    0.000     0
+    53    0     4     87.0    0.086     0
+    54    0     4     40.0    0.002     0
+    55    0     4     63.0    0.043     0
+    56    0     4    434.0    0.709     0
+    57    0     4    594.0    0.996     0
+    58    0     4     40.0    0.002     0
+    59    0     4     57.0    0.032     0
+    60    0     4    109.0    0.085     0
+    61    0     4     46.0    0.013     0
+    62    0     4     46.0    0.013     0
+    63    0     4     87.0    0.086     0
+    64    0     4     40.0    0.002     0
+    65    0     4     39.0    0.000     0
+    66    0     4     40.0    0.002     0
+    67    0     4     40.0    0.002     0
+    68    0     4     40.0    0.002     0
+    69    0     4    297.0    0.463     0
+    70    0     4     40.0    0.002     0
+    71    0     4     39.0    0.000     0
+    72    0     4    434.0    0.709     0
+    73    0     4    111.0    0.129     0
+    74    0     4     39.0    0.000     0
+    75    0     5     40.0    0.002     0
+    76    0     4    434.0    0.709     0
+    77    0     4     40.0    0.002     0
+    78    0     4     45.0    0.011     0
+    79    0     4     40.0    0.002     0
+    80    0     4     40.0    0.002     0
+    81    0     4    163.0    0.223     0
+    82    0     4     41.0    0.004     0
+Total extinctions: 0
+Generation time: 156.091 sec
+
+ ****** Running generation 1 ****** 
+
+evaluating genome 104 fitness= 39
+evaluating genome 101 fitness= 39
+evaluating genome 102 fitness= 39
+evaluating genome 103 fitness= 39
+evaluating genome 12 fitness= 39
+evaluating genome 105 fitness= 40
+evaluating genome 109 fitness= 39
+evaluating genome 108 fitness= 39
+evaluating genome 64 fitness= 39
+evaluating genome 107 fitness= 39
+evaluating genome 106 fitness= 39
+evaluating genome 36 fitness= 39
+evaluating genome 110 fitness= 40
+evaluating genome 114 fitness= 39
+evaluating genome 46 fitness= 39
+evaluating genome 80 fitness= 39
+evaluating genome 113 fitness= 39
+evaluating genome 117 fitness= 39
+evaluating genome 115 fitness= 39
+evaluating genome 111 fitness= 39
+evaluating genome 119 fitness= 39
+evaluating genome 90 fitness= 39
+evaluating genome 112 fitness= 39
+evaluating genome 120 fitness= 39
+evaluating genome 1 fitness= 40
+evaluating genome 116 fitness= 39
+evaluating genome 118 fitness= 39
+evaluating genome 122 fitness= 40
+evaluating genome 87 fitness= 39
+evaluating genome 121 fitness= 42
+evaluating genome 131 fitness= 40
+evaluating genome 124 fitness= 40
+evaluating genome 123 fitness= 40
+evaluating genome 135 fitness= 41
+evaluating genome 40 fitness= 40
+evaluating genome 126 fitness= 40
+evaluating genome 130 fitness= 40
+evaluating genome 125 fitness= 40
+evaluating genome 127 fitness= 40
+evaluating genome 6 fitness= 40
+evaluating genome 129 fitness= 40
+evaluating genome 19 fitness= 40
+evaluating genome 136 fitness= 40
+evaluating genome 5 fitness= 40
+evaluating genome 30 fitness= 40
+evaluating genome 128 fitness= 40
+evaluating genome 14 fitness= 40
+evaluating genome 134 fitness= 41
+evaluating genome 35 fitness= 40
+evaluating genome 28 fitness= 40
+evaluating genome 140 fitness= 40
+evaluating genome 143 fitness= 40
+evaluating genome 138 fitness= 40
+evaluating genome 142 fitness= 39
+evaluating genome 137 fitness= 40
+evaluating genome 133 fitness= 40
+evaluating genome 139 fitness= 40
+evaluating genome 141 fitness= 40
+evaluating genome 144 fitness= 40
+evaluating genome 132 fitness= 192
+evaluating genome 154 fitness= 40
+evaluating genome 61 fitness= 40
+evaluating genome 155 fitness= 40
+evaluating genome 57 fitness= 40
+evaluating genome 146 fitness= 40
+evaluating genome 162 fitness= 40
+evaluating genome 39 fitness= 40
+evaluating genome 148 fitness= 40
+evaluating genome 151 fitness= 40
+evaluating genome 156 fitness= 40
+evaluating genome 149 fitness= 40
+evaluating genome 147 fitness= 40
+evaluating genome 164 fitness= 40
+evaluating genome 150 fitness= 40
+evaluating genome 152 fitness= 40
+evaluating genome 161 fitness= 40
+evaluating genome 145 fitness= 40
+evaluating genome 158 fitness= 40
+evaluating genome 160 fitness= 41
+evaluating genome 78 fitness= 40
+evaluating genome 153 fitness= 40
+evaluating genome 157 fitness= 40
+evaluating genome 38 fitness= 40
+evaluating genome 159 fitness= 40
+evaluating genome 66 fitness= 40
+evaluating genome 163 fitness= 40
+evaluating genome 81 fitness= 40
+evaluating genome 165 fitness= 40
+evaluating genome 72 fitness= 40
+evaluating genome 166 fitness= 52
+evaluating genome 178 fitness= 40
+evaluating genome 179 fitness= 40
+evaluating genome 172 fitness= 40
+evaluating genome 174 fitness= 40
+evaluating genome 83 fitness= 40
+evaluating genome 171 fitness= 40
+evaluating genome 82 fitness= 40
+evaluating genome 86 fitness= 40
+evaluating genome 176 fitness= 70
+evaluating genome 175 fitness= 40
+evaluating genome 173 fitness= 40
+evaluating genome 91 fitness= 40
+evaluating genome 169 fitness= 40
+evaluating genome 180 fitness= 40
+evaluating genome 177 fitness= 40
+evaluating genome 167 fitness= 40
+evaluating genome 183 fitness= 40
+evaluating genome 94 fitness= 40
+evaluating genome 185 fitness= 40
+evaluating genome 168 fitness= 44
+evaluating genome 182 fitness= 40
+evaluating genome 97 fitness= 40
+evaluating genome 96 fitness= 40
+evaluating genome 184 fitness= 40
+evaluating genome 170 fitness= 40
+evaluating genome 181 fitness= 40
+evaluating genome 188 fitness= 40
+evaluating genome 187 fitness= 40
+evaluating genome 189 fitness= 40
+evaluating genome 186 fitness= 40
+evaluating genome 195 fitness= 41
+evaluating genome 45 fitness= 41
+evaluating genome 198 fitness= 41
+evaluating genome 100 fitness= 41
+evaluating genome 26 fitness= 41
+evaluating genome 196 fitness= 41
+evaluating genome 192 fitness= 41
+evaluating genome 197 fitness= 43
+evaluating genome 16 fitness= 41
+evaluating genome 199 fitness= 41
+evaluating genome 203 fitness= 41
+evaluating genome 200 fitness= 41
+evaluating genome 202 fitness= 41
+evaluating genome 204 fitness= 41
+evaluating genome 191 fitness= 41
+evaluating genome 193 fitness= 41
+evaluating genome 29 fitness= 41
+evaluating genome 190 fitness= 41
+evaluating genome 194 fitness= 41
+evaluating genome 50 fitness= 43
+evaluating genome 205 fitness= 52
+evaluating genome 201 fitness= 41
+evaluating genome 208 fitness= 46
+evaluating genome 95 fitness= 45
+evaluating genome 207 fitness= 44
+evaluating genome 211 fitness= 45
+evaluating genome 206 fitness= 52
+evaluating genome 209 fitness= 59
+evaluating genome 210 fitness= 46
+evaluating genome 63 fitness= 46
+evaluating genome 75 fitness= 44
+evaluating genome 218 fitness= 46
+evaluating genome 217 fitness= 46
+evaluating genome 76 fitness= 46
+evaluating genome 216 fitness= 46
+evaluating genome 212 fitness= 45
+evaluating genome 221 fitness= 44
+evaluating genome 10 fitness= 45
+evaluating genome 219 fitness= 46
+evaluating genome 15 fitness= 54
+evaluating genome 222 fitness= 46
+evaluating genome 214 fitness= 46
+evaluating genome 220 fitness= 46
+evaluating genome 215 fitness= 46
+evaluating genome 85 fitness= 40
+evaluating genome 233 fitness= 40
+evaluating genome 213 fitness= 45
+evaluating genome 227 fitness= 47
+evaluating genome 8 fitness= 52
+evaluating genome 231 fitness= 56
+evaluating genome 223 fitness= 52
+evaluating genome 9 fitness= 56
+evaluating genome 229 fitness= 81
+evaluating genome 225 fitness= 52
+evaluating genome 224 fitness= 51
+evaluating genome 232 fitness= 52
+evaluating genome 228 fitness= 104
+evaluating genome 34 fitness= 53
+evaluating genome 230 fitness= 108
+evaluating genome 226 fitness= 173
+evaluating genome 238 fitness= 63
+evaluating genome 239 fitness= 63
+evaluating genome 237 fitness= 63
+evaluating genome 248 fitness= 41
+evaluating genome 245 fitness= 65
+evaluating genome 246 fitness= 70
+evaluating genome 240 fitness= 64
+evaluating genome 244 fitness= 65
+evaluating genome 247 fitness= 70
+evaluating genome 49 fitness= 70
+evaluating genome 37 fitness= 65
+evaluating genome 235 fitness= 80
+evaluating genome 242 fitness= 45
+evaluating genome 73 fitness= 57
+evaluating genome 21 fitness= 39
+evaluating genome 55 fitness= 87
+evaluating genome 59 fitness= 73
+evaluating genome 243 fitness= 65
+evaluating genome 253 fitness= 40
+evaluating genome 234 fitness= 57
+evaluating genome 236 fitness= 57
+evaluating genome 67 fitness= 63
+evaluating genome 13 fitness= 64
+evaluating genome 241 fitness= 102
+evaluating genome 249 fitness= 83
+evaluating genome 252 fitness= 93
+evaluating genome 65 fitness= 87
+evaluating genome 251 fitness= 145
+evaluating genome 250 fitness= 320
+evaluating genome 254 fitness= 175
+evaluating genome 258 fitness= 63
+evaluating genome 77 fitness= 63
+evaluating genome 263 fitness= 102
+evaluating genome 268 fitness= 92
+evaluating genome 265 fitness= 104
+evaluating genome 23 fitness= 101
+evaluating genome 32 fitness= 109
+evaluating genome 271 fitness= 109
+evaluating genome 259 fitness= 63
+evaluating genome 257 fitness= 63
+evaluating genome 27 fitness= 102
+evaluating genome 262 fitness= 101
+evaluating genome 264 fitness= 102
+evaluating genome 270 fitness= 109
+evaluating genome 260 fitness= 101
+evaluating genome 267 fitness= 101
+evaluating genome 74 fitness= 109
+evaluating genome 98 fitness= 64
+evaluating genome 269 fitness= 112
+evaluating genome 266 fitness= 102
+evaluating genome 273 fitness= 109
+evaluating genome 4 fitness= 102
+evaluating genome 89 fitness= 111
+evaluating genome 274 fitness= 111
+evaluating genome 276 fitness= 111
+evaluating genome 275 fitness= 111
+evaluating genome 261 fitness= 150
+evaluating genome 256 fitness= 80
+evaluating genome 255 fitness= 83
+evaluating genome 272 fitness= 297
+evaluating genome 62 fitness= 132
+evaluating genome 277 fitness= 115
+evaluating genome 42 fitness= 119
+evaluating genome 283 fitness= 132
+evaluating genome 33 fitness= 115
+evaluating genome 290 fitness= 64
+evaluating genome 41 fitness= 40
+evaluating genome 285 fitness= 132
+evaluating genome 284 fitness= 132
+evaluating genome 281 fitness= 119
+evaluating genome 286 fitness= 163
+evaluating genome 48 fitness= 73
+evaluating genome 289 fitness= 73
+evaluating genome 279 fitness= 125
+evaluating genome 278 fitness= 115
+evaluating genome 280 fitness= 119
+evaluating genome 288 fitness= 163
+evaluating genome 99 fitness= 163
+evaluating genome 18 fitness= 243
+evaluating genome 295 fitness= 243
+evaluating genome 287 fitness= 199
+evaluating genome 282 fitness= 434
+evaluating genome 56 fitness= 282
+evaluating genome 54 fitness= 192
+evaluating genome 293 fitness= 190
+evaluating genome 291 fitness= 192
+evaluating genome 292 fitness= 192
+evaluating genome 296 fitness= 435
+evaluating genome 294 fitness= 676
+evaluating genome 17 fitness= 167
+evaluating genome 303 fitness= 40
+evaluating genome 302 fitness= 40
+evaluating genome 297 fitness= 40
+evaluating genome 298 fitness= 40
+evaluating genome 24 fitness= 40
+evaluating genome 11 fitness= 40
+evaluating genome 58 fitness= 40
+evaluating genome 310 fitness= 40
+evaluating genome 43 fitness= 40
+evaluating genome 79 fitness= 66
+evaluating genome 2 fitness= 66
+evaluating genome 301 fitness= 297
+evaluating genome 84 fitness= 295
+evaluating genome 300 fitness= 297
+evaluating genome 53 fitness= 299
+evaluating genome 20 fitness= 300
+evaluating genome 307 fitness= 297
+evaluating genome 305 fitness= 299
+evaluating genome 299 fitness= 297
+evaluating genome 3 fitness= 305
+evaluating genome 60 fitness= 298
+evaluating genome 47 fitness= 310
+evaluating genome 306 fitness= 297
+evaluating genome 304 fitness= 296
+evaluating genome 308 fitness= 297
+evaluating genome 309 fitness= 300
+evaluating genome 313 fitness= 259
+evaluating genome 31 fitness= 307
+evaluating genome 312 fitness= 306
+evaluating genome 311 fitness= 434
+evaluating genome 70 fitness= 40
+evaluating genome 326 fitness= 40
+evaluating genome 314 fitness= 40
+evaluating genome 22 fitness= 40
+evaluating genome 315 fitness= 41
+evaluating genome 316 fitness= 43
+evaluating genome 331 fitness= 46
+evaluating genome 323 fitness= 298
+evaluating genome 317 fitness= 119
+evaluating genome 321 fitness= 434
+evaluating genome 324 fitness= 296
+evaluating genome 322 fitness= 434
+evaluating genome 25 fitness= 300
+evaluating genome 88 fitness= 432
+evaluating genome 68 fitness= 428
+evaluating genome 330 fitness= 308
+evaluating genome 320 fitness= 428
+evaluating genome 318 fitness= 434
+evaluating genome 325 fitness= 434
+evaluating genome 92 fitness= 434
+evaluating genome 52 fitness= 434
+evaluating genome 69 fitness= 596
+evaluating genome 7 fitness= 397
+evaluating genome 327 fitness= 594
+evaluating genome 71 fitness= 594
+evaluating genome 329 fitness= 594
+evaluating genome 328 fitness= 664
+evaluating genome 319 fitness= 722
+Population's average fitness: 106.82317 stdev: 126.40228
+Best fitness: 722.00000 - size: (12, 2525) - species 56 - id 319
+Average adjusted fitness: 0.100
+Mean genetic distance 2.836, standard deviation 0.324
+Population of 328 members in 82 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    1     4     40.0    0.001     1
+     2    1     4    310.0    0.119     1
+     3    1     4    305.0    0.131     1
+     4    1     4    104.0    0.093     0
+     5    1     4     40.0    0.001     1
+     6    1     4     40.0    0.001     1
+     7    1     4    397.0    0.264     1
+     8    1     4     52.0    0.019     1
+     9    1     4     56.0    0.018     1
+    10    1     4     46.0    0.010     1
+    11    1     4     39.0    0.000     1
+    12    1     4    102.0    0.044     0
+    13    1     4    192.0    0.057     0
+    14    1     4    108.0    0.070     0
+    15    1     4     41.0    0.003     1
+    16    1     4    167.0    0.081     1
+    17    1     4    676.0    0.527     0
+    18    1     4     41.0    0.002     0
+    19    1     4    300.0    0.380     1
+    20    1     4     93.0    0.038     0
+    21    1     4    150.0    0.109     0
+    22    1     4    298.0    0.096     1
+    23    1     4    596.0    0.400     1
+    24    1     4     41.0    0.003     1
+    25    1     4    102.0    0.088     1
+    26    1     4     40.0    0.001     1
+    27    1     4     43.0    0.004     0
+    28    1     4     40.0    0.001     1
+    29    1     4    434.0    0.421     0
+    30    1     4    112.0    0.104     0
+    31    1     4    125.0    0.115     0
+    32    1     4    173.0    0.057     0
+    33    1     4     40.0    0.001     1
+    34    1     4     40.0    0.000     0
+    35    1     4     65.0    0.038     1
+    36    1     4     40.0    0.001     1
+    37    1     4     40.0    0.001     1
+    38    1     4    282.0    0.090     1
+    39    1     4    434.0    0.232     0
+    40    1     4     41.0    0.003     1
+    41    1     4     39.0    0.000     1
+    42    1     4     70.0    0.035     1
+    43    1     4     52.0    0.013     0
+    44    1     4    434.0    0.176     1
+    45    1     4    299.0    0.379     1
+    46    1     4    192.0    0.149     1
+    47    1     4     40.0    0.001     1
+    48    1     4    320.0    0.170     0
+    49    1     4     40.0    0.001     1
+    50    1     4    132.0    0.136     1
+    51    1     4     59.0    0.015     0
+    52    1     4     40.0    0.000     0
+    53    1     4    175.0    0.098     0
+    54    1     4     40.0    0.001     1
+    55    1     4     63.0    0.035     1
+    56    1     4    722.0    0.679     0
+    57    1     4    664.0    0.838     0
+    58    1     4     41.0    0.002     0
+    59    1     4     80.0    0.035     0
+    60    1     4    297.0    0.155     0
+    61    1     4     46.0    0.010     1
+    62    1     4     46.0    0.010     1
+    63    1     4     63.0    0.035     1
+    64    1     4     40.0    0.001     1
+    65    1     4     39.0    0.000     1
+    66    1     4     52.0    0.007     0
+    67    1     4     40.0    0.001     1
+    68    1     4     40.0    0.001     1
+    69    1     4    297.0    0.377     1
+    70    1     4     70.0    0.012     0
+    71    1     4     39.0    0.000     1
+    72    1     4    434.0    0.528     1
+    73    1     4    111.0    0.105     1
+    74    1     4     42.0    0.001     0
+    75    1     4     40.0    0.001     1
+    76    1     4    434.0    0.384     1
+    77    1     4     40.0    0.001     1
+    78    1     4     45.0    0.009     1
+    79    1     4     40.0    0.001     1
+    80    1     4     40.0    0.001     1
+    81    1     4    199.0    0.195     0
+    82    1     4     41.0    0.003     1
+Total extinctions: 0
+Generation time: 382.388 sec (269.239 average)
+Saving checkpoint to neat-checkpoint-1
+
+ ****** Running generation 2 ****** 
+
+evaluating genome 12 fitness= 39
+evaluating genome 101 fitness= 39
+evaluating genome 113 fitness= 39
+evaluating genome 80 fitness= 39
+evaluating genome 109 fitness= 39
+evaluating genome 87 fitness= 39
+evaluating genome 115 fitness= 39
+evaluating genome 102 fitness= 39
+evaluating genome 117 fitness= 39
+evaluating genome 46 fitness= 39
+evaluating genome 103 fitness= 39
+evaluating genome 114 fitness= 39
+evaluating genome 118 fitness= 39
+evaluating genome 108 fitness= 39
+evaluating genome 111 fitness= 39
+evaluating genome 107 fitness= 39
+evaluating genome 64 fitness= 39
+evaluating genome 105 fitness= 40
+evaluating genome 106 fitness= 39
+evaluating genome 1 fitness= 40
+evaluating genome 124 fitness= 40
+evaluating genome 104 fitness= 39
+evaluating genome 112 fitness= 39
+evaluating genome 116 fitness= 39
+evaluating genome 36 fitness= 39
+evaluating genome 122 fitness= 40
+evaluating genome 123 fitness= 40
+evaluating genome 5 fitness= 40
+evaluating genome 125 fitness= 40
+evaluating genome 110 fitness= 40
+evaluating genome 128 fitness= 40
+evaluating genome 143 fitness= 40
+evaluating genome 141 fitness= 40
+evaluating genome 130 fitness= 40
+evaluating genome 138 fitness= 40
+evaluating genome 136 fitness= 40
+evaluating genome 145 fitness= 40
+evaluating genome 127 fitness= 40
+evaluating genome 142 fitness= 39
+evaluating genome 28 fitness= 40
+evaluating genome 6 fitness= 40
+evaluating genome 139 fitness= 40
+evaluating genome 140 fitness= 40
+evaluating genome 35 fitness= 40
+evaluating genome 38 fitness= 40
+evaluating genome 30 fitness= 40
+evaluating genome 144 fitness= 40
+evaluating genome 147 fitness= 40
+evaluating genome 146 fitness= 40
+evaluating genome 129 fitness= 40
+evaluating genome 39 fitness= 40
+evaluating genome 137 fitness= 40
+evaluating genome 151 fitness= 40
+evaluating genome 57 fitness= 40
+evaluating genome 152 fitness= 40
+evaluating genome 149 fitness= 40
+evaluating genome 148 fitness= 40
+evaluating genome 150 fitness= 40
+evaluating genome 153 fitness= 40
+evaluating genome 126 fitness= 40
+evaluating genome 83 fitness= 40
+evaluating genome 66 fitness= 40
+evaluating genome 156 fitness= 40
+evaluating genome 155 fitness= 40
+evaluating genome 82 fitness= 40
+evaluating genome 157 fitness= 40
+evaluating genome 163 fitness= 40
+evaluating genome 154 fitness= 40
+evaluating genome 61 fitness= 40
+evaluating genome 159 fitness= 40
+evaluating genome 182 fitness= 40
+evaluating genome 91 fitness= 40
+evaluating genome 78 fitness= 40
+evaluating genome 172 fitness= 40
+evaluating genome 181 fitness= 40
+evaluating genome 174 fitness= 40
+evaluating genome 158 fitness= 40
+evaluating genome 164 fitness= 40
+evaluating genome 165 fitness= 40
+evaluating genome 58 fitness= 40
+evaluating genome 179 fitness= 40
+evaluating genome 169 fitness= 40
+evaluating genome 94 fitness= 40
+evaluating genome 171 fitness= 40
+evaluating genome 170 fitness= 40
+evaluating genome 173 fitness= 40
+evaluating genome 178 fitness= 40
+evaluating genome 184 fitness= 40
+evaluating genome 183 fitness= 40
+evaluating genome 96 fitness= 40
+evaluating genome 97 fitness= 40
+evaluating genome 16 fitness= 41
+evaluating genome 191 fitness= 41
+evaluating genome 26 fitness= 41
+evaluating genome 190 fitness= 41
+evaluating genome 195 fitness= 41
+evaluating genome 161 fitness= 40
+evaluating genome 19 fitness= 40
+evaluating genome 40 fitness= 40
+evaluating genome 188 fitness= 40
+evaluating genome 185 fitness= 40
+evaluating genome 162 fitness= 40
+evaluating genome 187 fitness= 40
+evaluating genome 72 fitness= 40
+evaluating genome 160 fitness= 41
+evaluating genome 134 fitness= 41
+evaluating genome 186 fitness= 40
+evaluating genome 189 fitness= 40
+evaluating genome 45 fitness= 41
+evaluating genome 192 fitness= 41
+evaluating genome 199 fitness= 41
+evaluating genome 200 fitness= 41
+evaluating genome 135 fitness= 41
+evaluating genome 194 fitness= 41
+evaluating genome 202 fitness= 41
+evaluating genome 100 fitness= 41
+evaluating genome 203 fitness= 41
+evaluating genome 193 fitness= 41
+evaluating genome 204 fitness= 41
+evaluating genome 201 fitness= 41
+evaluating genome 29 fitness= 41
+evaluating genome 119 fitness= 39
+evaluating genome 120 fitness= 39
+evaluating genome 197 fitness= 43
+evaluating genome 198 fitness= 41
+evaluating genome 213 fitness= 45
+evaluating genome 211 fitness= 45
+evaluating genome 196 fitness= 41
+evaluating genome 10 fitness= 46
+evaluating genome 95 fitness= 45
+evaluating genome 76 fitness= 46
+evaluating genome 220 fitness= 46
+evaluating genome 214 fitness= 46
+evaluating genome 222 fitness= 44
+evaluating genome 90 fitness= 39
+evaluating genome 212 fitness= 45
+evaluating genome 216 fitness= 46
+evaluating genome 215 fitness= 46
+evaluating genome 81 fitness= 40
+evaluating genome 219 fitness= 46
+evaluating genome 75 fitness= 46
+evaluating genome 221 fitness= 46
+evaluating genome 218 fitness= 46
+evaluating genome 217 fitness= 46
+evaluating genome 167 fitness= 40
+evaluating genome 168 fitness= 44
+evaluating genome 121 fitness= 42
+evaluating genome 206 fitness= 52
+evaluating genome 205 fitness= 52
+evaluating genome 166 fitness= 52
+evaluating genome 50 fitness= 43
+evaluating genome 210 fitness= 46
+evaluating genome 239 fitness= 63
+evaluating genome 232 fitness= 52
+evaluating genome 238 fitness= 63
+evaluating genome 208 fitness= 46
+evaluating genome 9 fitness= 56
+evaluating genome 231 fitness= 56
+evaluating genome 207 fitness= 44
+evaluating genome 63 fitness= 46
+evaluating genome 225 fitness= 52
+evaluating genome 223 fitness= 52
+evaluating genome 257 fitness= 63
+evaluating genome 237 fitness= 63
+evaluating genome 67 fitness= 63
+evaluating genome 259 fitness= 63
+evaluating genome 177 fitness= 40
+evaluating genome 258 fitness= 63
+evaluating genome 224 fitness= 52
+evaluating genome 233 fitness= 40
+evaluating genome 37 fitness= 65
+evaluating genome 86 fitness= 40
+evaluating genome 175 fitness= 40
+evaluating genome 245 fitness= 65
+evaluating genome 243 fitness= 65
+evaluating genome 176 fitness= 70
+evaluating genome 77 fitness= 63
+evaluating genome 244 fitness= 65
+evaluating genome 209 fitness= 59
+evaluating genome 8 fitness= 52
+evaluating genome 21 fitness= 39
+evaluating genome 234 fitness= 57
+evaluating genome 248 fitness= 41
+evaluating genome 242 fitness= 45
+evaluating genome 240 fitness= 64
+evaluating genome 241 fitness= 102
+evaluating genome 55 fitness= 87
+evaluating genome 73 fitness= 57
+evaluating genome 236 fitness= 57
+evaluating genome 27 fitness= 101
+evaluating genome 235 fitness= 80
+evaluating genome 13 fitness= 64
+evaluating genome 229 fitness= 52
+evaluating genome 268 fitness= 100
+evaluating genome 253 fitness= 40
+evaluating genome 252 fitness= 93
+evaluating genome 265 fitness= 104
+evaluating genome 266 fitness= 102
+evaluating genome 15 fitness= 54
+evaluating genome 264 fitness= 102
+evaluating genome 274 fitness= 111
+evaluating genome 246 fitness= 70
+evaluating genome 263 fitness= 102
+evaluating genome 49 fitness= 70
+evaluating genome 247 fitness= 70
+evaluating genome 230 fitness= 108
+evaluating genome 4 fitness= 102
+evaluating genome 228 fitness= 104
+evaluating genome 89 fitness= 111
+evaluating genome 267 fitness= 101
+evaluating genome 32 fitness= 109
+evaluating genome 277 fitness= 115
+evaluating genome 271 fitness= 109
+evaluating genome 23 fitness= 101
+evaluating genome 48 fitness= 73
+evaluating genome 276 fitness= 111
+evaluating genome 290 fitness= 62
+evaluating genome 283 fitness= 132
+evaluating genome 261 fitness= 150
+evaluating genome 62 fitness= 132
+evaluating genome 284 fitness= 132
+evaluating genome 270 fitness= 109
+evaluating genome 262 fitness= 101
+evaluating genome 278 fitness= 115
+evaluating genome 260 fitness= 101
+evaluating genome 85 fitness= 40
+evaluating genome 285 fitness= 132
+evaluating genome 269 fitness= 112
+evaluating genome 227 fitness= 46
+evaluating genome 289 fitness= 73
+evaluating genome 275 fitness= 111
+evaluating genome 33 fitness= 115
+evaluating genome 279 fitness= 125
+evaluating genome 256 fitness= 96
+evaluating genome 65 fitness= 87
+evaluating genome 34 fitness= 53
+evaluating genome 226 fitness= 175
+evaluating genome 255 fitness= 83
+evaluating genome 254 fitness= 175
+evaluating genome 17 fitness= 167
+evaluating genome 41 fitness= 40
+evaluating genome 14 fitness= 40
+evaluating genome 131 fitness= 40
+evaluating genome 297 fitness= 40
+evaluating genome 133 fitness= 40
+evaluating genome 298 fitness= 40
+evaluating genome 303 fitness= 40
+evaluating genome 302 fitness= 40
+evaluating genome 273 fitness= 108
+evaluating genome 24 fitness= 40
+evaluating genome 288 fitness= 163
+evaluating genome 99 fitness= 163
+evaluating genome 74 fitness= 109
+evaluating genome 98 fitness= 64
+evaluating genome 300 fitness= 297
+evaluating genome 56 fitness= 281
+evaluating genome 286 fitness= 163
+evaluating genome 272 fitness= 297
+evaluating genome 84 fitness= 297
+evaluating genome 287 fitness= 199
+evaluating genome 301 fitness= 297
+evaluating genome 299 fitness= 297
+evaluating genome 292 fitness= 192
+evaluating genome 305 fitness= 299
+evaluating genome 53 fitness= 297
+evaluating genome 54 fitness= 192
+evaluating genome 60 fitness= 298
+evaluating genome 293 fitness= 192
+evaluating genome 291 fitness= 192
+evaluating genome 132 fitness= 192
+evaluating genome 43 fitness= 40
+evaluating genome 310 fitness= 40
+evaluating genome 11 fitness= 40
+evaluating genome 251 fitness= 45
+evaluating genome 79 fitness= 66
+evaluating genome 59 fitness= 73
+evaluating genome 334 fitness= 41
+evaluating genome 315 fitness= 41
+evaluating genome 333 fitness= 43
+evaluating genome 2 fitness= 66
+evaluating genome 332 fitness= 305
+evaluating genome 249 fitness= 83
+evaluating genome 306 fitness= 295
+evaluating genome 42 fitness= 119
+evaluating genome 281 fitness= 119
+evaluating genome 47 fitness= 307
+evaluating genome 3 fitness= 305
+evaluating genome 280 fitness= 119
+evaluating genome 304 fitness= 296
+evaluating genome 20 fitness= 300
+evaluating genome 307 fitness= 297
+evaluating genome 309 fitness= 300
+evaluating genome 308 fitness= 297
+evaluating genome 282 fitness= 434
+evaluating genome 313 fitness= 259
+evaluating genome 31 fitness= 307
+evaluating genome 250 fitness= 320
+evaluating genome 7 fitness= 397
+evaluating genome 312 fitness= 306
+evaluating genome 311 fitness= 434
+evaluating genome 326 fitness= 40
+evaluating genome 331 fitness= 46
+evaluating genome 70 fitness= 40
+evaluating genome 316 fitness= 43
+evaluating genome 317 fitness= 119
+evaluating genome 330 fitness= 308
+evaluating genome 25 fitness= 300
+evaluating genome 323 fitness= 298
+evaluating genome 295 fitness= 243
+evaluating genome 18 fitness= 243
+evaluating genome 324 fitness= 296
+evaluating genome 322 fitness= 434
+evaluating genome 88 fitness= 434
+evaluating genome 321 fitness= 434
+evaluating genome 68 fitness= 434
+evaluating genome 318 fitness= 434
+evaluating genome 325 fitness= 434
+evaluating genome 92 fitness= 434
+evaluating genome 69 fitness= 596
+evaluating genome 52 fitness= 434
+evaluating genome 296 fitness= 435
+evaluating genome 320 fitness= 428
+evaluating genome 329 fitness= 594
+evaluating genome 294 fitness= 676
+evaluating genome 327 fitness= 594
+evaluating genome 71 fitness= 594
+evaluating genome 328 fitness= 664
+evaluating genome 319 fitness= 722
+Population's average fitness: 107.33841 stdev: 126.90086
+Best fitness: 722.00000 - size: (12, 2525) - species 56 - id 319
+Average adjusted fitness: 0.100
+Mean genetic distance 2.836, standard deviation 0.324
+Population of 328 members in 82 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    2     4     40.0    0.001     2
+     2    2     4    307.0    0.118     2
+     3    2     4    305.0    0.195     2
+     4    2     4    104.0    0.093     1
+     5    2     4     40.0    0.001     2
+     6    2     4     40.0    0.001     2
+     7    2     4    397.0    0.134     2
+     8    2     4     52.0    0.019     2
+     9    2     4     56.0    0.018     2
+    10    2     4     46.0    0.010     2
+    11    2     4     39.0    0.000     2
+    12    2     4    102.0    0.044     1
+    13    2     4    192.0    0.057     1
+    14    2     4    108.0    0.059     1
+    15    2     4     41.0    0.003     2
+    16    2     4    167.0    0.080     2
+    17    2     4    676.0    0.527     1
+    18    2     4     41.0    0.002     1
+    19    2     4    300.0    0.380     2
+    20    2     4     93.0    0.038     1
+    21    2     4    150.0    0.109     1
+    22    2     4    298.0    0.096     2
+    23    2     4    596.0    0.400     2
+    24    2     4     41.0    0.003     2
+    25    2     4    102.0    0.091     2
+    26    2     4     40.0    0.001     2
+    27    2     4     43.0    0.004     1
+    28    2     4     40.0    0.001     2
+    29    2     4    434.0    0.421     1
+    30    2     4    112.0    0.104     1
+    31    2     4    125.0    0.115     1
+    32    2     4    175.0    0.058     0
+    33    2     4     40.0    0.001     2
+    34    2     4     40.0    0.000     1
+    35    2     4     65.0    0.038     2
+    36    2     4     40.0    0.001     2
+    37    2     4     40.0    0.001     2
+    38    2     4    281.0    0.090     2
+    39    2     4    434.0    0.232     1
+    40    2     4     41.0    0.003     2
+    41    2     4     39.0    0.000     2
+    42    2     4     70.0    0.035     2
+    43    2     4     52.0    0.013     1
+    44    2     4    434.0    0.176     2
+    45    2     4    299.0    0.377     2
+    46    2     4    192.0    0.224     2
+    47    2     4     40.0    0.001     2
+    48    2     4    320.0    0.134     1
+    49    2     4     40.0    0.001     2
+    50    2     4    132.0    0.136     2
+    51    2     4     59.0    0.015     1
+    52    2     4     40.0    0.000     1
+    53    2     4    175.0    0.104     1
+    54    2     4     40.0    0.001     2
+    55    2     4     63.0    0.035     2
+    56    2     4    722.0    0.682     1
+    57    2     4    664.0    0.838     1
+    58    2     4     41.0    0.002     1
+    59    2     4     80.0    0.035     1
+    60    2     4    297.0    0.154     1
+    61    2     4     46.0    0.010     2
+    62    2     4     46.0    0.010     2
+    63    2     4     63.0    0.035     2
+    64    2     4     40.0    0.001     2
+    65    2     4     39.0    0.000     2
+    66    2     4     52.0    0.007     1
+    67    2     4     40.0    0.001     2
+    68    2     4     40.0    0.001     2
+    69    2     4    297.0    0.378     2
+    70    2     4     70.0    0.012     1
+    71    2     4     39.0    0.000     2
+    72    2     4    434.0    0.529     2
+    73    2     4    111.0    0.105     2
+    74    2     4     42.0    0.001     1
+    75    2     4     40.0    0.001     2
+    76    2     4    434.0    0.384     2
+    77    2     4     40.0    0.001     2
+    78    2     4     45.0    0.009     2
+    79    2     4     40.0    0.001     2
+    80    2     4     40.0    0.001     2
+    81    2     4    199.0    0.195     1
+    82    2     4     41.0    0.003     2
+Total extinctions: 0
+Generation time: 370.965 sec (303.148 average)
+Saving checkpoint to neat-checkpoint-2
+
+ ****** Running generation 3 ****** 
+
+evaluating genome 12 fitness= 39
+evaluating genome 107 fitness= 39
+evaluating genome 101 fitness= 39
+evaluating genome 46 fitness= 39
+evaluating genome 108 fitness= 39
+evaluating genome 87 fitness= 39
+evaluating genome 103 fitness= 39
+evaluating genome 80 fitness= 39
+evaluating genome 117 fitness= 39
+evaluating genome 109 fitness= 39
+evaluating genome 114 fitness= 39
+evaluating genome 118 fitness= 39
+evaluating genome 113 fitness= 39
+evaluating genome 110 fitness= 40
+evaluating genome 102 fitness= 39
+evaluating genome 115 fitness= 39
+evaluating genome 104 fitness= 39
+evaluating genome 1 fitness= 40
+evaluating genome 122 fitness= 40
+evaluating genome 36 fitness= 39
+evaluating genome 105 fitness= 40
+evaluating genome 106 fitness= 39
+evaluating genome 111 fitness= 39
+evaluating genome 123 fitness= 40
+evaluating genome 124 fitness= 40
+evaluating genome 112 fitness= 39
+evaluating genome 125 fitness= 40
+evaluating genome 116 fitness= 39
+evaluating genome 64 fitness= 39
+evaluating genome 5 fitness= 40
+evaluating genome 138 fitness= 40
+evaluating genome 28 fitness= 40
+evaluating genome 137 fitness= 40
+evaluating genome 127 fitness= 40
+evaluating genome 139 fitness= 40
+evaluating genome 152 fitness= 40
+evaluating genome 142 fitness= 39
+evaluating genome 129 fitness= 40
+evaluating genome 140 fitness= 40
+evaluating genome 130 fitness= 40
+evaluating genome 6 fitness= 40
+evaluating genome 143 fitness= 40
+evaluating genome 39 fitness= 40
+evaluating genome 126 fitness= 40
+evaluating genome 30 fitness= 40
+evaluating genome 35 fitness= 40
+evaluating genome 149 fitness= 40
+evaluating genome 128 fitness= 40
+evaluating genome 57 fitness= 40
+evaluating genome 148 fitness= 40
+evaluating genome 136 fitness= 40
+evaluating genome 144 fitness= 40
+evaluating genome 150 fitness= 40
+evaluating genome 153 fitness= 40
+evaluating genome 141 fitness= 40
+evaluating genome 38 fitness= 40
+evaluating genome 147 fitness= 40
+evaluating genome 151 fitness= 40
+evaluating genome 145 fitness= 40
+evaluating genome 146 fitness= 40
+evaluating genome 154 fitness= 40
+evaluating genome 170 fitness= 40
+evaluating genome 165 fitness= 40
+evaluating genome 66 fitness= 40
+evaluating genome 171 fitness= 40
+evaluating genome 78 fitness= 40
+evaluating genome 158 fitness= 40
+evaluating genome 157 fitness= 40
+evaluating genome 155 fitness= 40
+evaluating genome 159 fitness= 40
+evaluating genome 164 fitness= 40
+evaluating genome 169 fitness= 40
+evaluating genome 173 fitness= 40
+evaluating genome 172 fitness= 40
+evaluating genome 156 fitness= 40
+evaluating genome 82 fitness= 40
+evaluating genome 91 fitness= 40
+evaluating genome 58 fitness= 40
+evaluating genome 179 fitness= 40
+evaluating genome 163 fitness= 40
+evaluating genome 94 fitness= 40
+evaluating genome 83 fitness= 40
+evaluating genome 174 fitness= 40
+evaluating genome 181 fitness= 40
+evaluating genome 184 fitness= 40
+evaluating genome 183 fitness= 40
+evaluating genome 61 fitness= 40
+evaluating genome 178 fitness= 40
+evaluating genome 182 fitness= 40
+evaluating genome 96 fitness= 40
+evaluating genome 185 fitness= 40
+evaluating genome 134 fitness= 41
+evaluating genome 135 fitness= 41
+evaluating genome 19 fitness= 40
+evaluating genome 161 fitness= 40
+evaluating genome 192 fitness= 41
+evaluating genome 162 fitness= 40
+evaluating genome 160 fitness= 41
+evaluating genome 190 fitness= 41
+evaluating genome 186 fitness= 40
+evaluating genome 40 fitness= 40
+evaluating genome 26 fitness= 43
+evaluating genome 188 fitness= 40
+evaluating genome 72 fitness= 40
+evaluating genome 189 fitness= 40
+evaluating genome 191 fitness= 41
+evaluating genome 187 fitness= 40
+evaluating genome 200 fitness= 41
+evaluating genome 193 fitness= 41
+evaluating genome 45 fitness= 41
+evaluating genome 202 fitness= 41
+evaluating genome 16 fitness= 41
+evaluating genome 97 fitness= 40
+evaluating genome 199 fitness= 40
+evaluating genome 195 fitness= 41
+evaluating genome 201 fitness= 41
+evaluating genome 203 fitness= 41
+evaluating genome 100 fitness= 41
+evaluating genome 204 fitness= 41
+evaluating genome 194 fitness= 41
+evaluating genome 95 fitness= 45
+evaluating genome 198 fitness= 41
+evaluating genome 120 fitness= 39
+evaluating genome 211 fitness= 45
+evaluating genome 10 fitness= 46
+evaluating genome 196 fitness= 41
+evaluating genome 214 fitness= 46
+evaluating genome 29 fitness= 41
+evaluating genome 213 fitness= 45
+evaluating genome 90 fitness= 39
+evaluating genome 75 fitness= 46
+evaluating genome 121 fitness= 42
+evaluating genome 197 fitness= 43
+evaluating genome 168 fitness= 44
+evaluating genome 221 fitness= 46
+evaluating genome 222 fitness= 46
+evaluating genome 205 fitness= 52
+evaluating genome 76 fitness= 46
+evaluating genome 217 fitness= 46
+evaluating genome 220 fitness= 46
+evaluating genome 219 fitness= 46
+evaluating genome 167 fitness= 40
+evaluating genome 218 fitness= 46
+evaluating genome 81 fitness= 40
+evaluating genome 119 fitness= 39
+evaluating genome 212 fitness= 45
+evaluating genome 206 fitness= 52
+evaluating genome 215 fitness= 46
+evaluating genome 216 fitness= 46
+evaluating genome 166 fitness= 52
+evaluating genome 50 fitness= 43
+evaluating genome 207 fitness= 44
+evaluating genome 9 fitness= 56
+evaluating genome 67 fitness= 63
+evaluating genome 233 fitness= 40
+evaluating genome 232 fitness= 52
+evaluating genome 63 fitness= 46
+evaluating genome 175 fitness= 40
+evaluating genome 37 fitness= 65
+evaluating genome 210 fitness= 46
+evaluating genome 224 fitness= 52
+evaluating genome 257 fitness= 63
+evaluating genome 208 fitness= 46
+evaluating genome 231 fitness= 56
+evaluating genome 77 fitness= 63
+evaluating genome 8 fitness= 52
+evaluating genome 237 fitness= 63
+evaluating genome 243 fitness= 65
+evaluating genome 86 fitness= 40
+evaluating genome 177 fitness= 40
+evaluating genome 245 fitness= 65
+evaluating genome 239 fitness= 63
+evaluating genome 258 fitness= 63
+evaluating genome 176 fitness= 70
+evaluating genome 259 fitness= 63
+evaluating genome 238 fitness= 63
+evaluating genome 244 fitness= 65
+evaluating genome 209 fitness= 59
+evaluating genome 225 fitness= 52
+evaluating genome 223 fitness= 52

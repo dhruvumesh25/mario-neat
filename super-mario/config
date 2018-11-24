@@ -25,7 +25,7 @@ bias_max_value          = 30.0
 bias_min_value          = -30.0
 bias_mutate_power       = 0.1
 bias_mutate_rate        = 0.005
-bias_replace_rate       = 0.1
+bias_replace_rate       = 0.005
 
 # genome compatibility options
 compatibility_disjoint_coefficient = 1.0
@@ -44,10 +44,10 @@ initial_connection      = full_direct
 
 # node add/remove rates
 node_add_prob           = 0.2
-node_delete_prob        = 0.2
+node_delete_prob        = 0.15
 
 # network parameters
-num_hidden              = 0
+num_hidden              = 6
 num_inputs              = 208
 num_outputs             = 6
 
@@ -70,7 +70,7 @@ weight_mutate_rate      = 0.001
 weight_replace_rate     = 0.001
 
 [DefaultSpeciesSet]
-compatibility_threshold = 1.2
+compatibility_threshold = 2.6
 
 [DefaultStagnation]
 species_fitness_func = max
@@ -78,6 +78,6 @@ max_stagnation       = 4
 species_elitism      = 2
 
 [DefaultReproduction]
-elitism            = 5
+elitism            = 4
 survival_threshold = 0.2
 
