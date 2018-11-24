@@ -10,6 +10,7 @@ import gym
 import multiprocessing
 import time
 import subprocess
+import numpy as np
 from multiprocessing import Process, Value, Array
 
 def killFCEUX():
@@ -26,6 +27,38 @@ def binarize(inp):
         else:
             out.append(1)
     return out
+
+def recenter(observation):
+    n = len(observation)
+    m = len(observation[0])
+
+    recentered = np.zeros((n, m), dtype=np.int)
+    view = np.zeros((10, 10), dtype=np.int)
+
+    deltax = 0
+    deltay = 0
+
+    for i in range(0, n):
+        for j in range(0, m):
+            if observation[i][j] == 3:
+                deltax = int(n/2) - i
+                deltay = int(m/2) - j
+    
+    for i in range(0, n):
+        for j in range(0, m):
+            newx = i+deltax
+            newy = j+deltay
+            if newx < n and newy < m and newx >= 0 and newy >= 0:
+                recentered[newx][newy] = observation[i][j]
+
+    for i in range(0, 10):
+        for j in range(0, 10):
+            view[i][j] = recentered[i+1][j+5]
+
+    # print(observation)
+    # print(view)
+
+    return view
 
 def eval_single_genome(genome, genome_id, index, config, return_dict, write_lock):
     # print("inside process", genome_id)
@@ -48,10 +81,12 @@ def eval_single_genome(genome, genome_id, index, config, return_dict, write_lock
 
     # ctr = 0
 
-    while not done and alive and time_stale < 80:
+    while not done and alive and time_stale < 200:
         # print("in loop",genome_id)
+        # print(recenter(observation))
         # print(observation)
-        action = net.activate(observation.flatten().tolist())
+        # recenter(observation)
+        action = net.activate((observation).flatten().tolist())
         bin_action = []
         for i in action:
             if i < 0:
@@ -104,7 +139,7 @@ def eval_genomes(genomes, config):
 
     manager = multiprocessing.Manager()
     return_dict = manager.dict()
-    max_parallel_processes = 5
+    max_parallel_processes = 1
 
     lock = multiprocessing.Lock()
     for i in range(0,num_genomes,max_parallel_processes):
@@ -123,7 +158,7 @@ def eval_genomes(genomes, config):
                 pass
         killFCEUX()
 
-    print(return_dict)
+    # print(return_dict)
 
     for genome_id, genome in genomes:
         genome.fitness = return_dict[genome_id]
@@ -136,6 +171,9 @@ def run(config_file):
 
     # Create the population, which is the top-level object for a NEAT run.
     p = neat.Population(config)
+    p = neat.Checkpointer.restore_checkpoint('good/neat-checkpoint-31')
+
+    # p = neat.Checkpointer.restore_checkpoint("neat-checkpoint-23")
 
     # Add a stdout reporter to show progress in the terminal.
     p.add_reporter(neat.StdOutReporter(True))
@@ -171,4 +209,5 @@ if __name__ == '__main__':
     # current working directory.
     local_dir = os.path.dirname(__file__)
     config_path = os.path.join(local_dir, 'config')
+
     run(config_path)
